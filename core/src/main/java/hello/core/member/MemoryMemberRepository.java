@@ -3,6 +3,7 @@ package hello.core.member;
 import java.util.HashMap;
 import java.util.Map;
 
+// DB가 정해지지 않았을 때
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
